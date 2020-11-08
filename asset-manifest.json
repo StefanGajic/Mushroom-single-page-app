@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Mushroom-single-page-app/static/css/main.3fb193a3.chunk.css",
+    "main.js": "/Mushroom-single-page-app/static/js/main.cc394ad3.chunk.js",
+    "main.js.map": "/Mushroom-single-page-app/static/js/main.cc394ad3.chunk.js.map",
+    "runtime-main.js": "/Mushroom-single-page-app/static/js/runtime-main.b12d8e0e.js",
+    "runtime-main.js.map": "/Mushroom-single-page-app/static/js/runtime-main.b12d8e0e.js.map",
+    "static/js/2.438c7e43.chunk.js": "/Mushroom-single-page-app/static/js/2.438c7e43.chunk.js",
+    "static/js/2.438c7e43.chunk.js.map": "/Mushroom-single-page-app/static/js/2.438c7e43.chunk.js.map",
+    "index.html": "/Mushroom-single-page-app/index.html",
+    "static/css/main.3fb193a3.chunk.css.map": "/Mushroom-single-page-app/static/css/main.3fb193a3.chunk.css.map",
+    "static/js/2.438c7e43.chunk.js.LICENSE.txt": "/Mushroom-single-page-app/static/js/2.438c7e43.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b12d8e0e.js",
+    "static/js/2.438c7e43.chunk.js",
+    "static/css/main.3fb193a3.chunk.css",
+    "static/js/main.cc394ad3.chunk.js"
+  ]
+}
