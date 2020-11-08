@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {BrowserRouter, Route} from 'react-router-dom';
+import './css/style.css';
+import Navbar from './components/navbar';
+import Home from './components/home';
+import EdibleContainer from './components/edibleContainer';
+import NotEdible from './components/notEdible';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        < Navbar />
+        <Route exact path="/" render={() => <Home title="World of Mushrooms" />} />
+        <Route path="/edible/" render={() => <EdibleContainer title="Edible" />} />
+        <Route path="/not-edible" component={NotEdible} />
+      </div>
+    </BrowserRouter>
   );
 }
 
